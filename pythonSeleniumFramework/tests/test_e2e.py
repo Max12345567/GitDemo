@@ -31,7 +31,7 @@ class TestE2E(BaseClass): # this is inheritance
         #trade.get_order_confirmation().text("")
         assert trade.get_order_confirmation() == trade.get_order_confirmation().t
 
-
+        #this is new change 
 
         self.driver.find_element(By.CSS_SELECTOR, "button[direction='buy']").click()
 
